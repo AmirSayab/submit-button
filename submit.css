@@ -1,0 +1,27 @@
+button{
+    background-color: blue;
+    margin: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+font-size: 2.5rem;
+border-radius: 25px;
+}
+div{
+  text-align: center;
+  background-color: grey;
+  margin-top: 30%;
+
+}
+button:hover{
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: green;
+transition: 800ms;
+transform: skew(2deg,4deg);
+
+}
+span:hover{
+  transform: skew(1deg,5deg);
+  background-color: red;
+
+}
